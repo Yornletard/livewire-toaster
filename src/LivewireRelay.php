@@ -7,7 +7,7 @@ use Livewire\LivewireManager;
 use Livewire\Response;
 
 /** @internal */
-final readonly class LivewireRelay
+final class LivewireRelay
 {
     public const EVENT = 'toaster:received';
 

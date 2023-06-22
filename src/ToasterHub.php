@@ -12,9 +12,9 @@ final class ToasterHub extends Component
     public const NAME = 'toaster-hub';
 
     public function __construct(
-        private readonly ToasterConfig $config,
-        private readonly Session $session,
-        private readonly string $view = 'toaster::hub',
+        private ToasterConfig $config,
+        private Session $session,
+        private string $view = 'toaster::hub',
     ) {}
 
     public function render(): View

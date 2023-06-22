@@ -264,7 +264,7 @@ use Masmerise\Toaster\Collector;
 use Masmerise\Toaster\ToasterConfig;
 use Masmerise\Toaster\ToastBuilder;
 
-final readonly class SendEmailVerifiedNotification
+final class SendEmailVerifiedNotification
 {
     public function __construct(
         private ToasterConfig $config,
